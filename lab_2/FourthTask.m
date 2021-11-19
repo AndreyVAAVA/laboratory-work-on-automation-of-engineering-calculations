@@ -9,5 +9,5 @@ function[result] = FourthTask()
     if (result(k) < min) result(k) = min;
     else if (result(k) > max) result(k) = max; end; 
   end;
-  plot(result, t)
+  plot(t, result)
 end;
